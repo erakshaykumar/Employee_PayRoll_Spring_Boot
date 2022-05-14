@@ -1,9 +1,7 @@
-package com.bridgelabz.employeepayroll.model;
+package com.employeepayroll.model;
 
-import com.bridgelabz.employeepayroll.dto.EmployeePayrollDTO;
-import lombok.Data;
+import com.employeepayroll.dto.EmployeePayrollDTO;
 
-@Data
 public class EmployeePayrollData {
     private  Long Salary;
     private  String name;

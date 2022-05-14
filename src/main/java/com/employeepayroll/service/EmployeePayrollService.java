@@ -1,15 +1,15 @@
-package com.bridgelabz.employeepayroll.service;
+package com.employeepayroll.service;
 
-import com.bridgelabz.employeepayroll.dto.EmployeePayrollDTO;
-import com.bridgelabz.employeepayroll.model.EmployeePayrollData;
+import com.employeepayroll.dto.EmployeePayrollDTO;
+import com.employeepayroll.model.EmployeePayrollData;
+import com.employeepayroll.service.IEmployeePayrollService;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
-
 @Service
-public class EmployeePayrollService implements IEmployeePayrollService{
+public class EmployeePayrollService implements IEmployeePayrollService {
 
     private List<EmployeePayrollData> employeePayrollList=new ArrayList();
 
@@ -38,5 +38,4 @@ public class EmployeePayrollService implements IEmployeePayrollService{
     public void deleteEmployeePayrollData(int empId){
         employeePayrollList.remove(empId-1);
     }
-
 }
