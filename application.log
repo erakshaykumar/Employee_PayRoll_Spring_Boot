@@ -411,3 +411,20 @@ Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo can
 2022-05-14 08:47:06.984  INFO 24296 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2022-05-14 08:47:06.990  INFO 24296 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2022-05-14 08:47:07.005  INFO 24296 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-14 09:12:56.111  INFO 26556 --- [restartedMain] c.e.EmployeePayrollApplication           : Starting EmployeePayrollApplication using Java 11.0.15 on LAPTOP-0A5HNPDR with PID 26556 (C:\Users\ASUS\IdeaProjects\Employee_PayRoll_Spring_Boot\target\classes started by ASUS in C:\Users\ASUS\IdeaProjects\Employee_PayRoll_Spring_Boot)
+2022-05-14 09:12:56.112  INFO 26556 --- [restartedMain] c.e.EmployeePayrollApplication           : The following 1 profile is active: "DEV"
+2022-05-14 09:12:56.148  INFO 26556 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-14 09:12:56.149  INFO 26556 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-14 09:12:56.599  INFO 26556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-14 09:12:56.609  INFO 26556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2022-05-14 09:12:57.043  INFO 26556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-14 09:12:57.052  INFO 26556 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-14 09:12:57.053  INFO 26556 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-14 09:12:57.109  INFO 26556 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-14 09:12:57.109  INFO 26556 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 959 ms
+2022-05-14 09:12:57.492  INFO 26556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-14 09:12:57.803  INFO 26556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-14 09:12:58.036  INFO 26556 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-14 09:12:58.089  WARN 26556 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-14 09:12:58.352  INFO 26556 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-14 09:12:58.388  INFO 26556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
