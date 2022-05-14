@@ -504,3 +504,26 @@ Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo can
 2022-05-14 10:15:42.643  INFO 5076 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2022-05-14 10:15:42.646  INFO 5076 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2022-05-14 10:15:42.656  INFO 5076 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-14 10:29:09.349  INFO 25056 --- [restartedMain] c.e.EmployeePayrollApplication           : Starting EmployeePayrollApplication using Java 11.0.15 on LAPTOP-0A5HNPDR with PID 25056 (C:\Users\ASUS\IdeaProjects\Employee_PayRoll_Spring_Boot\target\classes started by ASUS in C:\Users\ASUS\IdeaProjects\Employee_PayRoll_Spring_Boot)
+2022-05-14 10:29:09.353  INFO 25056 --- [restartedMain] c.e.EmployeePayrollApplication           : The following 1 profile is active: "DEV"
+2022-05-14 10:29:09.428  INFO 25056 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-14 10:29:09.428  INFO 25056 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-14 10:29:10.741  INFO 25056 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-14 10:29:10.773  INFO 25056 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2022-05-14 10:29:11.788  INFO 25056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-14 10:29:11.806  INFO 25056 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-14 10:29:11.807  INFO 25056 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-14 10:29:11.937  INFO 25056 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-14 10:29:11.938  INFO 25056 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2509 ms
+2022-05-14 10:29:12.747  INFO 25056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-14 10:29:13.409  INFO 25056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-14 10:29:13.878  INFO 25056 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-14 10:29:13.986  WARN 25056 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-14 10:29:14.504  INFO 25056 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-14 10:29:14.580  INFO 25056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-14 10:29:14.603  INFO 25056 --- [restartedMain] c.e.EmployeePayrollApplication           : Started EmployeePayrollApplication in 5.823 seconds (JVM running for 7.231)
+2022-05-14 10:29:14.609  INFO 25056 --- [restartedMain] c.e.EmployeePayrollApplication           : Employee Payroll App Started in DEV Environment
+2022-05-14 10:29:14.610  INFO 25056 --- [restartedMain] c.e.EmployeePayrollApplication           : Employee Payroll DB User is root 
+2022-05-14 10:29:20.617  INFO 25056 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-14 10:29:20.627  INFO 25056 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-14 10:29:20.651  INFO 25056 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
