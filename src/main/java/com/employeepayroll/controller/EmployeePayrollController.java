@@ -35,7 +35,13 @@ public class EmployeePayrollController {
         ResponseDTO respDTO = new ResponseDTO("Get Call Success for id successful ", employeePayrollData);
         return new ResponseEntity<ResponseDTO>(respDTO, HttpStatus.OK);
     }
-
+    @GetMapping("/department/{department}")
+    public ResponseEntity<ResponseDTO> getEmployeePayrollData(@PathVariable String department){
+        List<EmployeePayrollData> employeePayrollDataList = null;
+        employeePayrollDataList = employeePayrollService.getEmployeesByDepartment(department);
+        ResponseDTO responseDTO = new ResponseDTO("Get Call For Department Successful",employeePayrollDataList);
+        return new ResponseEntity<ResponseDTO>(responseDTO,HttpStatus.OK);
+    }
     @PostMapping("/create")
     public ResponseEntity<ResponseDTO> addEmployeePayrollData(@Valid @RequestBody EmployeePayrollDTO empPayrollDTO) {
         EmployeePayrollData employeePayrollData = null;
@@ -45,8 +51,7 @@ public class EmployeePayrollController {
     }
 
     @PutMapping("/update/{empId}")
-    public ResponseEntity<ResponseDTO> updateEmployeePayrollData(@PathVariable("empId") int empId,
-                                                                 @Valid@RequestBody EmployeePayrollDTO empPayrollDTO){
+    public ResponseEntity<ResponseDTO> updateEmployeePayrollData(@PathVariable("empId") int empId, @Valid @RequestBody EmployeePayrollDTO empPayrollDTO){
         EmployeePayrollData empData=null;
         empData = employeePayrollService.updateEmployeePayrollData(empId, empPayrollDTO);
         ResponseDTO respDTO=new ResponseDTO("Updated Employee Payroll Data Successfully", empData);
